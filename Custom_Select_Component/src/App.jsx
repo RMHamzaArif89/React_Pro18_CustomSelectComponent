@@ -1,4 +1,5 @@
 import React from 'react'
+import Select from './components/Select'
 
 import './App.css'
 
@@ -6,8 +7,10 @@ function App() {
 
 
   return (
-    <h1>
-    okay</h1>
+   <>
+   
+    <Select/>
+   </>
   )
 }
 

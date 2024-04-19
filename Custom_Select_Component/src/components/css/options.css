@@ -1,0 +1,28 @@
+.select_Option{
+    width: 300px;
+    padding: 12px;
+    height: 30px;
+    font-size: 1.2rem;
+    color: blue;
+    font-family: sans-serif;
+    border: 3px solid lightblue;
+    display: flex;
+    justify-content: space-between;
+
+
+}
+.select_Option span{
+    cursor: pointer;
+}
+.value{
+    width: 300px;
+    padding: 12px;
+    font-size: 1.2rem;
+    color: blueviolet;
+    
+
+}
+.value:hover{
+    background: lightblue;
+    cursor: pointer;
+}
