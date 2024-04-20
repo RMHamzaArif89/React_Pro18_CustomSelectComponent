@@ -1,5 +1,6 @@
 import React, { useState } from 'react'
 import Options from './Options'
+import './css/select.css'
 
 function Select() {
     let options=[
@@ -12,13 +13,24 @@ function Select() {
     ]
 
     let[value,setVlaue]=useState('select Option')
+    let[selectValues,setSelectValues]=useState([])
+    console.log(selectValues)
+
     
+    let func2=(v2)=>{
+      console.log(v2)
+
+    }
   return (
 
   <>
     <div className='select'>
+      <div className="values">
+       {/* {selectValues} */}
+       {selectValues}
+      </div>
 
-        <Options options={options} value={value} onChange={(v)=>{setVlaue(v)}}/>
+        <Options options={options} add={(v2)=>{func2(v2)}} value={value} onChange={(v)=>{setVlaue(v)}}/>
       
     </div>
 

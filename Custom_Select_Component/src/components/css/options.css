@@ -1,11 +1,11 @@
 .select_Option{
     width: 300px;
-    padding: 12px;
-    height: 30px;
+    padding: 8px;
+    height: 40px;
     font-size: 1.2rem;
     color: blue;
     font-family: sans-serif;
-    border: 3px solid lightblue;
+    border: 3px solid rgb(14, 61, 76);
     display: flex;
     justify-content: space-between;
 
